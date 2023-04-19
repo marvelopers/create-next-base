@@ -62,17 +62,7 @@
         "jsx-a11y/no-static-element-interactions": "off"
       },
       "parserOptions": {
-        "project": ["./tsconfig.json", "./services/**/tsconfig.json"]
-      }
-    },
-    {
-      "files": ["services/greenlabs-pay/**/*.ts?(x)", "services/greenlabs-pay/**/*.js?(x)"],
-      "settings": {
-        "import/resolver": {
-          "typescript": {
-            "project": "services/greenlabs-pay"
-          }
-        }
+        "project": ["./tsconfig.json"]
       }
     },
     {

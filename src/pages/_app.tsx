@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Global styles={GlobalStyle} />
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <Component {...pageProps} />
     </>
   );
